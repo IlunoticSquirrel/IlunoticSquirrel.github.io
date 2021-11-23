@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" 
+    crossorigin="anonymous"
+    />
+    <script 
+    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+    crossorigin="anonymous"
+    ></script>
+    <script
+     src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" 
+     crossorigin="anonymous"
+     ></script>
+
+     <script>document.getElementById("defaultOpen").click();
+    </script>
+    <style>
+
+marquee{
+      font-size: 13px;
+      font-weight: bold;
+      color:rgb(0, 0, 0);
+      font-family: sans-serif;
+      height: 30px;
+
+      }
+.tab {
+  overflow: hidden;
+  border: 2px groove rgba(255, 255, 255, 0.652);
+  background-image: linear-gradient(black, rgba(34, 34, 34, 0.604));
+  border-radius:45rem;
+  margin: 90px;
+}
+
+.tab button {
+  background-color: inherit;
+  float: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 9px 29px;
+  transition: 0.1s;
+}
+.tab button:hover {
+  background-image: linear-gradient(black, darkgrey)
+}
+
+.tab button.active {
+  background-image: linear-gradient(black, darkgrey)
+}
+body {
+background-image: url('https://i.pinimg.com/originals/f2/ca/7f/f2ca7f7bb4b6f61d4b3c13919e5efb0e.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+  background-attachment: fixed;
+}
+.tabcontent {
+  display: none;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.645);
+  width: 1114px;
+  padding: 2px 80px;
+  border: none; 
+  border-top: none;
+  float: right;
+  position: absolute;left: 100px;
+  -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #000;
+font-size: 50px; color: #ffffff00;
+max-height: flex;
+}
+.Pizza{
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #000;
+font-size: 50px; color: #ffffff;
+position: absolute; left: 200px; top: 20px;
+}
+.Esfirra{
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #000;
+font-size: 50px; color: #ffffff;
+position: absolute; top:160px; left: 610px;
+}
+
+    img {
+  border: 5px solid rgb(233, 129, 9);
+}
+    </style>
+    <title>Código Kobayashi</title>
+</head>
+<body>
+    <title>Código Kobayashi</title>
+</body>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<div style = "left:140px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  font-size: 50px; top:130px; font-weight: bolder;" class="Pizza">Código Kobayashi</div>
+<div style = "left:150px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  font-size: 23px; top:160px; left: 620px;" class="Esfirra">Um site sobre Kobayashi-san Chi no Maid Dragon!</div>
+<marquee style= "position: absolute; top:0px;"> Agradecimentos: W3Schools, TechOnTheNet, Youtubers legais, minha paciência, Trinky, Eletivas, Stack Overflow, Contentful, Quackit, Alpha coders, Wallpaper Cave, HTML Progressivo, Pinterest, Tenor e ao meu computador que me aguentou nesse percurso imenso :)</marquee> 
+<div class="bonito"></div>
+<div class="tab">
+    <button style= " color: white; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 18px; font-style: oblique; font-weight: bold;" class= "tablinks" onclick="openCity(event, 'Melhores Momentos')">Melhores Momentos</button>
+    <button style= " color: white; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 18px; font-style: oblique; font-weight: bold;" class="tablinks" onclick="openCity(event, 'Personagens')">Personagens</button>
+    <button style= " color: white; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 18px; font-style: oblique; font-weight: bold;" class="tablinks" onclick="openCity(event, 'Início')"id="defaultOpen">Início</button>
+  </div>
+  <br />
+  
+  <br />
+
+  <div style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white;" id="Melhores Momentos" class="tabcontent">
+    <h3 style= "font-size: 50px; text-align: center;"><br />Melhores momentos!</p>
+      <br />
+      <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(255, 255, 255); font-size: 25px; font-weight: bold; text-align: center;">Mas primeiro....</p>
+     <img src= "https://pa1.narvii.com/6667/15fdc87e3f00a1e899619f2b691d9486d2250b58_hq.gif" style="border-radius: 10px; position: sticky; width: 750px; height: 430px; left: 282px;">
+     
+      <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(255, 0, 0); font-size: 40px; font-weight: bold; text-align: center;">SPOILER</p>
+      
+      <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(255, 81, 81); font-size: 32px; font-weight: bold; text-align: center;">Aqui provavelmente, não, COM CERTEZA terá algum spoiler, seja do anime ou do mangá. Se você quer preservar sua mente dos spoilers e quer ver/ler o anime/mangá sem levar spoiler, por favor, ignore esta seção :)</p>
+      <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(255, 255, 255); font-size: 22px; font-weight: bold; text-align: center;"><i>Usei uma fonte maior do que o normal para ressaltar o fato, enfim, continuando...</i></p>
+      <br />
+      <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(255, 255, 255); font-size: 30px; font-weight: bold; text-align: center;">Estes são os melhores momentos da série (para mim e talvez para mais gente, quem sabe?)</p>
+      <br /> 
+        <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(255, 183, 0); font-size: 35px; font-weight: bold; text-align: center;">1. Tohru sendo ela mesma</p>
+        <iframe width="750" height="430" src="https://www.youtube.com/embed/I7A20hJHxeA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(255, 255, 255); font-size: 22px; font-weight: bold; text-align: center;">Não dava para escolher uma cena só dela, então, tive que botar um compilado só com cenas delas :)</p>
+        <br />
+        <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(153, 79, 249); font-size: 35px; font-weight: bold; text-align: center;">2. Om nom</p>
+        <iframe width="750" height="430" src="https://www.youtube.com/embed/X1A_VWfVGmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(255, 255, 255); font-size: 22px; font-weight: bold; text-align: center;">Toda vez que a Kanna comia algo ou eu ria ou eu achava fofo, e aqui está o compilado de todas as vezes que ela fez isso</p>
+<br />
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(120, 250, 159); font-size: 35px; font-weight: bold; text-align: center;">3. Brincadeira...</p>
+<iframe width="750" height="430" src="https://www.youtube.com/embed/K4Hah9M6WlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(255, 255, 255); font-size: 22px; font-weight: bold; text-align: center;">A animação da batalha foi tão fluida e bem desenhada, dou nota 10 pra essa cena (e também pra sensatez da Kobayashi)</p>
+<br />
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(250, 120, 202); font-size: 35px; font-weight: bold; text-align: center;">4. PARADO LADRÃO!</p>
+<iframe width="750" height="430" src="https://www.youtube.com/embed/Ef4KKmbsFq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(255, 255, 255); font-size: 22px; font-weight: bold; text-align: center;">A segunda cena que eu mais gosto, é essa de fato! Tohru deixou o ladrão no lugar onde ele deve ficar... <i>No chão</i></p>
+<br />
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(250, 120, 202); font-size: 35px; font-weight: bold; text-align: center;">5. Tohru vs Damocles (o pai dela)</p>
+<iframe width="750" height="430" src="https://www.youtube.com/embed/2mdej6N6IC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(255, 255, 255); font-size: 22px; font-weight: bold; text-align: center;">Com certeza, esse foi o meu confronto favorito da primeira temporada, e esse final foi lindo e também emocionante ao mesmo tempo, é a minha cena favorita de verdade.</p>
+
+</div>
+  <div style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white;" id="Personagens" class="tabcontent">
+    <h3 style= "font-size: 50px;"><br />Personagens</h3>
+    <div><img src= "https://64.media.tumblr.com/67386cbde1efd6e4a676d6e8ac8ec212/tumblr_oof4doSxEm1vy2tgqo4_400.jpg" style="position: absolute; width: 218px; height: 230px; left: 795px; top: 180px;"></div>
+    <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(255, 0, 0); font-size: 25px; font-weight: bold;">Os protagonistas</p>
+  <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(255, 85, 85); font-weight: bold; font-size: 30px;">Kobayashi</p>
+  <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">Kobayashi é a personagem principal dessa série, e ela (por coinci-</p>
+<p  style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin : 0; padding-top:0;">dência) é uma programadora de computadores em uma empresa</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin : 0; padding-top:0;">de engenharia de sistemas.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">Ela tem 25 anos, é uma humana que <i>morava sozinha</i> (antes da a-</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">parição de Tohru na varanda do apartamento dela), e também</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">mora de alguel. Mesmo que aparenta ser fria, ela é bondosa com seus amigos, mas na maior parte do tempo ela prefere demonstrar o mínimo de sentimentos, assim como ela faz no seu trabalho, mas tende a ser preguiçosa quando está em casa.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold;"> Ela também divide seu apartamento com Tohru e Kanna.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold;"> Kobayashi foi introduzida no primeiro capítulo do mangá e no primeiro episódio do anime.</p>
+<img src= "https://c.tenor.com/ZtuVwa_2f1oAAAAC/kobayashi-san-chi-no-maid-dragon-anime.gif" style="border-radius: 10px; position: sticky; width: 750px; height: 430px; left: 282px;">
+<br />
+<div><img src= "https://myspace.windows93.net/u/6994/avatar.jpg" style="position: absolute; width: 229px; height: 230px; left: 795px; top: 1165px;"></div>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(255, 211, 129); font-weight: bold; font-size: 30px;"><br /> <br />Tohru</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">Tohru é uma das protagonistas da série, ela é um dragão fêmea</p>
+<p  style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin : 0; padding-top:0;">que tem a capacidade de se transformar em uma garota com</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin : 0; padding-top:0;">aparência de 16 anos. Ela também é filha de Damocles, o Impe-</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">rador da Morte.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">Na sua forma de dragão, seu tamanho é gigantesco, com asas de </p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">tom escuro em suas costas e suas escamas esverdeadas, e um tom verde mais claro para a barriga. Ela foi ensinada à odiar humanos e somente ter destruição em sua mente, até conhecer Kobayashi, de quem virou uma empregada e divide o apartamento, a mesma também ajuda Tohru à entender a vida moderna na Terra.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold;"> Tohru é muito querida com todos que são próximos dela, mesmo que tenha uma carga de poder inestimável dentro de si, ela trata todos os seus colegas com muito carinho.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold;"> Assim como Kobayashi, Tohru foi introduzida no primeiro capítulo do mangá e no primeiro episódio do anime.</p>
+<img src= "https://c.tenor.com/lPqrmNt74_0AAAAC/anime-yes.gif" style="border-radius: 10px; position: sticky; width: 700px; height: 460px; left: 282px;">
+<div><img src= "https://64.media.tumblr.com/96ed24b5b21b03abbe6ff31c38d77f79/c0ad2002610cba3f-b4/s400x600/91b265a34ce2c706bb6def0722b64093894a421b.png" style="position: absolute; width: 225px; height: 230px; left: 795px; top: 2250px;"></div>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(156, 129, 255); font-weight: bold; font-size: 30px;"><br /> <br />Kanna</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">Kanna Kamui (ou somente Kanna) é uma das personagens princi-</p>
+<p  style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin : 0; padding-top:0;">pais da série. Ela é uma jovem dragão fêmea, na sua forma huma-</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin : 0; padding-top:0;">na ela tem a aparência de uma criança de 9 anos, já na sua forma</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;"> de dragão, ela não têm escamas, e sim, penas, que são brancas, e</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">seus olhos azuis. Kanna é geralmente quieta e não demonstra</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">muito os seus sentimentos, mas não quer dizer que ela não tem. Seu comportamento não é muito diferente ao de uma criança, e também adora fazer pegadinhas. Além de que ela tem uma força superhumana, ela também pode gerar e manipular eletricidade.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold;"> Ela é grata por todas as amizades que tem, e também gosta de passar tempo com Kobayashi, Riko, e Tohru.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold;"> Kanna foi introduzida no quinto capítulo do mangá e no primeiro episódio do anime.</p>
+<img src= "https://c.tenor.com/kZUb3H7xURYAAAAC/kanna-eating.gif" style="border-radius: 10px; position: sticky; width: 750px; height: 430px; left: 282px;">
+<br />
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(0, 122, 252); font-size: 25px; font-weight: bold;"> <br /> <br /> <br /> Personagens secundários</p>
+<div><img src= "https://i.pinimg.com/564x/f0/af/6e/f0af6e1bbe12cd6c6422cf0f21449764.jpg" style="position: absolute; width: 218px; height: 230px; left: 795px; top: 3313px;"></div>
+  <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(124, 1, 135); font-weight: bold; font-size: 30px;">Elma</p>
+  <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">Elma é uma de várias personagens secundárias da série, ela é um</p>
+<p  style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin : 0; padding-top:0;">dragão fêmea, ela também trabalha na mesma empresa que Ko-</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin : 0; padding-top:0;">bayashi trabalha, e adotou o nome "Elma Joui" como seu pseudô-</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">nimo no mundo humano. Em sua forma de dragão, ela é uma ser-</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">pente do mar azul com uma espécie de chifre em sua testa, e</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">grandes barbatanas nos dois lados do seu rosto. É a única dragão que mora sozinha.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold;">Gula é um dos traços da personalidade da Elma que mais se destacam, além de ser muito indecisa na maior parte do tempo, tendo até que decidir qual escova de dente deveria usar. Ela também era uma antiga rival de Tohru.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold;"> Elma foi introduzida no vigésimo quarto capítulo do mangá e no oitavo episódio do anime.</p>
+<img src= "https://i.pinimg.com/originals/d8/bd/bf/d8bdbf288ba7a4ba3bd7b981ce09061a.gif" style="border-radius: 10px; position: sticky; width: 750px; height: 430px; left: 282px;">
+<div><img src= "https://i.pinimg.com/236x/fd/3f/02/fd3f0292a78e86f8b86cc221896f7aba.jpg" style="position: absolute; width: 218px; height: 230px; left: 795px; top: 4300px;"></div>
+  <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(224, 255, 20); font-weight: bold; font-size: 30px;"> <br /><br />Lucoa</p>
+  <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">Lucoa (ou Quetzalcoatl) é uma personagem secundária da série, e</p>
+<p  style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin : 0; padding-top:0;"> amiga de longa data de Tohru.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin : 0; padding-top:0;">Sua forma de dragão é uma das maiores já citadas na série.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;"> Ela tende a deixar seus olhos fechados, e também possuí hetero-</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">cromia, a íris do seu olho direito é verde e uma pupila preta e a-</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">marela, já o seu olho esquerdo tem a íris preta e uma pupila amarela.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold;">Deixando sua aparência de lado, ela é bem descontraída e é difícil não ver ela sorrindo ou sendo gentil, e ela tem uma irmã que se chama <I>Quetzalpetlatl</I>. Ela mora junto com Shota, cujo fica inticando as vezes.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold;"> Lucoa foi introduzida no oitavo capítulo do mangá e no terceiro episódio do anime.</p>
+<img src= "https://giffiles.alphacoders.com/187/187630.gif" style="border-radius: 10px; position: sticky; width: 750px; height: 430px; left: 282px;">
+<div><img src= "https://i.pinimg.com/236x/6b/4e/86/6b4e86b66784b477191500bb2771e275.jpg" style="position: absolute; width: 218px; height: 220px; left: 795px; top: 5249px;"></div>
+  <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(0, 88, 94); font-weight: bold; font-size: 30px;"> <br /><br />Riko </p>
+  <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">Riko Saikawa é mais uma personagem secundária da série. Ela é</p>
+<p  style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin : 0; padding-top:0;"> uma humana, tem nove anos de idade, é amiga da Kanna, e tam-</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin : 0; padding-top:0;">bém estuda na mesma classe que ela, Riko tem uma irmã mais</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;"> velha chamada <i>Georgie Saikawa.</i></p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">No começo, Riko parecia ser rude e arrogante com os outros</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;"> mas com o tempo, ela ficou mais simpática, principalmente com a Kanna, e gosta de estar perto dela.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold;">Ela tem medo do Fafnir.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold;"> Riko foi introduzida no décimo terceiro capítulo do mangá e no quarto episódio do anime.</p>
+<img src= "https://i.redd.it/9z62ffkmqjz41.gif" style="border-radius: 10px; position: sticky; width: 750px; height: 430px; left: 282px;">
+<div><img src= "https://64.media.tumblr.com/52a0bd842ea250ef06f5f690fd64c84a/tumblr_owr3rkJ5yR1w3jubzo6_400.png" style="position: absolute; width: 218px; height: 220px; left: 795px; top: 6205px;"></div>
+  <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(116, 25, 182); font-weight: bold; font-size: 30px;"> <br /><br />Shota</p>
+  <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">Shota Magatsuchi é um personagem secundário da série, ele é</p>
+<p  style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin : 0; padding-top:0;">um humano de 11 anos e tem uma família de feitiçeiros no mun-</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin : 0; padding-top:0;">do moderno. Ele ainda está aprendendo magia, mas já consegue</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;"> sumonar entidades e criar alguns feitiços, assim como fez sumo-</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">nando Lucoa, que o trata como uma criança.É um garoto tímido e </p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;"> frágil, e também muito fechado, e se sente desconfortável quando Lucoa está por perto.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold;">Shota é o único humano de relevância/que foi mostrado na série que tem poderes mágicos e que pode manipular magia ou criar feitiços.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold;"> Shota foi introduzido no vigésimo sétimo capítulo do mangá e no sexto episódio do anime.</p>
+<img src= "https://c.tenor.com/gPxlSkQIFY4AAAAC/shouta-magatsuchi-kobayashi-dragon-maid.gif" style="border-radius: 10px; position: sticky; width: 750px; height: 430px; left: 282px;">
+<div><img src= "https://64.media.tumblr.com/b0c00b15a8159337e15154e164d8cbca/tumblr_pvod3xJ08k1vy2tgqo9_400.jpg" style="position: absolute; width: 218px; height: 220px; left: 795px; top: 7170px;"></div>
+  <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(120, 120, 120); font-weight: bold; font-size: 30px;"> <br /><br />Takiya</p>
+  <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">Makoto Takiya é outro personagem secundário da série, ele é um</p>
+<p  style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin : 0; padding-top:0;">humano de 24 anos e trabalha na empresa na qual Kobayashi</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin : 0; padding-top:0;">trabalha, nas horas vagas, ele trabalha em seu ramo de</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;"> mangaká e como um desenvolvedor de jogos, e vende seus man-</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">gás em conferências.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;"> Takiya é um ser amigável e sempre se dispõe para ajudar os outros, e somente Kobayashi e Fafnir sabem do hobby dele (ser otaku)</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold;">Ele mora junto com Fafnir, e os dois passam o tempo jogando e comentando coisas sobre o mundo otaku.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold;"> Takiya foi introduzido no quarto capítulo do mangá e no primeiro episódio do anime.</p>
+<img src= "https://pa1.narvii.com/6593/9db703454881bde0338cfab25857a1ed3749adf6_hq.gif" style="border-radius: 10px; position: sticky; width: 750px; height: 430px; left: 282px;">
+<div><img src= "https://64.media.tumblr.com/b7c7b8ed675b41ee37a81828a9d9168c/4cad80baaacbb268-7c/s400x600/8f00e46310d68b0574b6f75e52671973f1566c98.png" style="position: absolute; width: 218px; height: 220px; left: 780px; top: 8088px;"></div>
+  <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(120, 120, 120); font-weight: bold; font-size: 30px;"> <br /><br />Fafnir</p>
+  <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">Fafnir é um dos únicos personagens secundários masculinos da </p>
+<p  style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin : 0; padding-top:0;">série que é um dragão, ele divide um apartamento com Takiya.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin : 0; padding-top:0;">Em sua forma de dragão (AKA: Verdadeira forma), ele é um</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;"> dragão com longas asas roxas escuras e seu corpo é coberto de</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;">tentáculos, e ele divide o mesmo atributo de cor dos olhos com sua forma humana.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold; margin-bottom:0;"> Fafnir odiava humanos por serem <i>humanos</i>, mas assim que soube que Takiya compartilhava os mesmos interesses que os dele, eles viraram amigos, o fazendo se sentir indiferente sobre humanos.</p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold;"></p>
+<p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 23px; font-weight: bold;"> Fafnir foi introduzido no oitavo capítulo do mangá e no terceiro episódio do anime.</p>
+<img src= "https://c.tenor.com/nan5QIMSN-oAAAAC/anime-fafnir-kobayashi.gif" style="border-radius: 10px; position: sticky; width: 750px; height: 430px; left: 282px;">
+</div>
+</div>
+  <div style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; display: block;" id="Início" class="tabcontent">
+    <h3 style= "font-size: 50px; text-align: center;"><br />Início</h3>
+    <br />
+    <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 20px; font-weight: bold; text-align: center;"><i>Esse é o meu primeiro site, ele vai funcionar como um mini-guia sobre algumas coisas à respeito do anime Kobayashi-san Chi no Maid Dragon, caso não conheçam, a sinopse está logo abaixo! E se localize com as tabs aqui em cima, tenha uma boa visita~</i></p>
+    <br />
+    <img src="https://chikyuji-animes.com/wp-content/uploads/2020/01/miss-kobayashi-dragon-maid-season-2-.jpg" alt="Kobayashiii" style="border-radius: 10px; position: center; width: 950px; height: 470px;">
+    <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 26px; font-weight: bold; text-align: center;">Sinopse: 
+        Quando Kobayashi sai para mais um dia de trabalho, ela abre a porta de seu apartamento apenas para se deparar com uma visão incomumente assustadora - a cabeça de um dragão, olhando para ela do outro lado da varanda. Para a surpresa de Kobayashi, o dragão imediatamente se transforma em uma empregada, apresentando-se como Tohru.
+    <br /> A história segue com encontros e desencontros, personagens únicos (até bem peculiares) e com Kobayashi tendo que conviver com seu "novo problema", cada episódio se tornando mais uma aventura para cada um dos personagens. </p>
+    <br />
+    <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 22px; font-weight: bold; text-align: center;"> (OBS.: O site é somente sobre a primeira temporada do anime, pois eu não vi a segunda temporada ainda, e também obrigada ao Augusto Vasques do Stack Overflow que corrigiu alguns erros do meu código, valeu! </p> <br /> <br />
+    <p style= "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white; font-size: 16px; font-weight: bold; text-align: center;"> Esta obra não é de minha autoria, todas as imagens, gifs e vídeos pertencem aos seus criadores e ao autor de Kobayashi-san Chi no Maid Dragon: <b>Coolkyousinnjya</b>) </p> 
+</div>
+  <script src="coisa.js"></script>
+</html>
